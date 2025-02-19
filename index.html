@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cady Headphones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <img src="./assets/CadyLogo.jpg" class="logo" alt="systemLogo">
+    <div class="container">
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Account</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        </ul>
+    </div>
+
+
+    <section class="headings">
+        <h1>Hello User!</h1>
+        <h2>To purchase a headphone, please complete the registration form below.</h2>
+    </section> <br />
+
+
+
+    <main>
+        <form method="post" class="form" id="userReg">
+
+
+            <div class="field-container">
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput" name="name" placeholder="Enter your full name" />
+            </div>
+
+            <div class="field-container">
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" name="email" placeholder="Enter a valid email" />
+            </div>
+
+            <div class="field-container">
+                <label for="numberInput">Phone Number</label>
+                <input type="tel" id="numberInput" name="phoneNumber" placeholder="Enter a valid Phone number" />
+            </div>
+
+            <div class="field-container">
+
+                <label for="passwordInput">Password</label>
+                <input type="password" id="passwordInput" name="password" placeholder="Enter an 8 charecter Password" />
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" form="userReg" id="submitBtn" name="submitBtn">Submit</button>
+            </div>
+
+        </form>
+
+
+
+
+
+        <a href="" id="terms">Read our Terms and Services</a>
+        <fieldset class="termsFields">
+            <legend>Do you agree on our Terms and Services? </legend>
+            <input type="radio" id="radioBtn1" name="radioBtn" />
+            <lable for="agree">Agree</lable>
+            <input type="radio" id="radioBtn2" name="radioBtn" />
+            <lable for="disagree">Disagree</lable>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cady Headphones. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
