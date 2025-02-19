@@ -17,7 +17,7 @@ a {
 /*Text styling*/
 #terms {
   position: relative;
-  top: 35px;
+  bottom: 20px;
   text-decoration: underline;
   font-size: medium;
   color: #54838d;
@@ -87,6 +87,8 @@ a {
 
 
 #submitBtn {
+  position: relative;
+  bottom: 50px;
   font-size: 18px;
   padding-right: 80px;
   padding-left: 80px;
@@ -106,7 +108,7 @@ a {
 /*Terms fields styling*/
 .termsFields {
   position: relative;
-  top: 40px;
+  bottom: 50px;
   border-radius: 3px;
   border: 1px solid #ccc;
   font-size: medium;
